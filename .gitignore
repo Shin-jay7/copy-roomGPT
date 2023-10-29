@@ -143,3 +143,24 @@ bin/
 pyvenv.cfg
 node_modules/
 .envrc
+
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+/.vscode
+# typescript
+*.tsbuildinfo
+next-env.d.ts
