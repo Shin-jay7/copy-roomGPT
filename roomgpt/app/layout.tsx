@@ -8,6 +8,7 @@ let ogimage = "https://roomgpt-demo.vercel.app/og-image.png";
 let sitename = "roomGPT.io";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('http://localhost:3000'),
   title,
   description,
   icons: {
